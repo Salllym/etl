@@ -1,6 +1,6 @@
 # etl
 
-Our project is about Amazon Prime TV shows and movies. Both datasets for our project are from [Kaggle](https://www.kaggle.com/datasets/victorsoeiro/paramount-tv-shows-and-movies). 
+Our project is about Paramount TV shows and movies. Both datasets for our project are from [Kaggle](https://www.kaggle.com/datasets/victorsoeiro/paramount-tv-shows-and-movies). 
 
 
 1. Store CSV into DataFrame
