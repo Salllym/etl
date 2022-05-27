@@ -45,6 +45,6 @@ The joined table provides a comprehensive view on movies and tv shows along with
 
 
 ## Findings
-Our results show that the majority of movies and shows are produced by the US, which was interesting to see which would give us insight as to why the US is the largest filmed entertainment market.
+Our results show that the majority of movies and shows are produced by the US, which was interesting to see, and gives us insight as to why the US is the largest filmed entertainment market.
 
-We also found that one actor, George 'Gabby' Hayes Count, had acted in the most movies, 30 movies to be exact, and they were all produced by the US , which can reveal that he's an experienced actor.
+We also found that one actor, George 'Gabby' Hayes Count, had acted in the most movies, 30 movies to be exact, which can reveal that he's an experienced and popular actor.
