@@ -27,15 +27,15 @@ The joined table provides a comprehensive view on movies and tv shows along with
 
 3.) When you reach 'Connect to local database' in the jupyter notebook, open PGAdmin and create a database called amazon_shows_movies.  Return to the jupyter notebook and run the 'engine' cell.
 
-![stepone](resources/step_one.png)
+![stepone](Resources/step_one.png)
 
-![steptwo](resources/step_two.png)
+![steptwo](Resources/step_two.png)
 
 4.) Open the query tool and input the queries.sql text and run it. Return to the juptyer notebook and run the rest of the cells to confirm that the data was imported.
 
-![stepfour](resources/step_four.png)
+![stepfour](Resources/step_four.png)
 
-![stepthree](resources/step_three.png)
+![stepthree](Resources/step_three.png)
 
 5.) Run any desired additional queries to analyze the data.
 
