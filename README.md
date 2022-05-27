@@ -16,7 +16,7 @@ To prepare the data to be loaded, we used Jupyter notebook to store each file in
 ## Load:
 Using PGAdmin, a relational database, we joined the tables and queried the data. The tables are joined on column ‘id,’ which serves as a primary key for both tables. The ‘id’ column uniquely identifies each movie in the dataset. Our final joined table contains less null values than the original data because of the columns we selected.  
 
-The joined table provides a comprehensive view on movies and tv shows along with their respective stars. We can query this table to determine which genres and types of media (movies vs. tv shows) each actor acts in the most. We could also determine how experienced an actor is based on how many productions they are in. Additionally, we could analyze the table based on production country which might provide some interesting trends on how this industry differs around the world. Below is a screenshot of the joined tables in PGAdmin.
+The joined table provides a comprehensive view on movies and tv shows along with their respective stars. We can query this table to determine which genres and types of media (movies vs. tv shows) each actor acts in the most. We could also determine how experienced/ popular an actor is based on how many productions they are in. Additionally, we could analyze the table based on production country which might provide some interesting trends on how this industry differs around the world. Below is a screenshot of the joined tables in PGAdmin.
 
 ![joinedtables](joined_tables.png)
 
