@@ -47,4 +47,4 @@ The joined table provides a comprehensive view on movies and tv shows along with
 ### Findings
 Our results show that the majority of movies and shows are produced by the US, which was interesting to see, and gives us insight as to why the US is the largest filmed entertainment market.
 
-We also found that actor Buster Keaton may be more experienced/ popular than actor Jim Farley since actor Buster Keaton has been in more productions than Jim Farley. 
+We also found that actor Buster Keaton may be more experienced/ popular than actor Jim Farley since Buster Keaton has been in more productions than Jim Farley. 
