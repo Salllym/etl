@@ -25,3 +25,18 @@ FROM credits
 JOIN titles
 ON credits.id = titles.id;
 
+
+
+-- Queries
+SELECT credits.id, credits.name, credits.role, titles.title, titles.type, titles.genres, titles.production_countries
+FROM credits
+JOIN titles
+ON credits.id = titles.id
+WHERE credits.name = 'Buster Keaton';
+
+SELECT credits.id, credits.name, credits.role, titles.title, titles.type, titles.genres, titles.production_countries
+FROM credits
+JOIN titles
+ON credits.id = titles.id
+WHERE credits.name = 'Jim Farley';
+
