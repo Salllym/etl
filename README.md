@@ -11,7 +11,9 @@ Columns: id, name, and role
 Columns: id, title, type, genres, and production_countries
 
 ## Process:
-First we used jupyter notebook and stored each file into a pandas Data Frame. We then cleaned the data by removing duplicate rows and chose columns with the most relevant information to merge.  Using PGAdmin, a relational database, we joined the tables and queried the data. The tables are joined on column ‘id,’ which serves as a primary key for both tables. The ‘id’ column uniquely identifies each movie in the dataset. Our final joined table contains less null values than the original data because of the columns we selected. We can query this table to determine which genres and types of media (movies vs. tv shows) each actor acts in the most. Below is a screenshot of the joined tables in PGAdmin.
+First we used jupyter notebook and stored each file into a pandas Data Frame. We then cleaned the data by removing duplicate rows and chose columns with the most relevant information to merge.  Using PGAdmin, a relational database, we joined the tables and queried the data. 
+
+The tables are joined on column ‘id,’ which serves as a primary key for both tables. The ‘id’ column uniquely identifies each movie in the dataset. Our final joined table contains less null values than the original data because of the columns we selected. We can query this table to determine which genres and types of media (movies vs. tv shows) each actor acts in the most. Below is a screenshot of the joined tables in PGAdmin.
 
 ![joinedtables](joined_tables.png)
 
