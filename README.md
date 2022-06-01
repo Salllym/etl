@@ -5,13 +5,13 @@
 #### Our project is about Paramount TV shows and movies. Both datasets for our project are from [Kaggle](https://www.kaggle.com/datasets/victorsoeiro/paramount-tv-shows-and-movies). 
 
 #### File 1: credits.csv (~40,000 rows) 
-Columns: id, name, and role
+Columns: person_id, id, name, character and role
 
 #### File 2: titles.csv (~2,800 rows)
-Columns: id, title, type, genres, and production_countries
+Columns: id, title, type, descriptions, release_year, age_certification, runtime, genres, production_countries, seasons, imdb_id, imdb_score, imdb_votes, tmdb_popularity, tmdb_score
 
 ## Transform:
-To prepare the data to be loaded, we used Jupyter notebook to store each file in a pandas Data Frame. We then cleaned the data by removing duplicate rows and chose columns with the most relevant information to merge. The primary key for the credits table is the 'id' table referring to movie id and the primary key for the credits table is 'person_id'.
+To prepare the data to be loaded, we used Jupyter notebook to store each file in a pandas Data Frame. We then cleaned the data by removing duplicate rows and chose columns with the most relevant information to merge. For the credits file, we chose columns: id, name, and role. For the titles file, we chose columns: id, title, type, genres, and production_countries.  The primary key for the credits table is the 'id' table referring to movie id and the primary key for the credits table is 'person_id'.
 
 ## Load:
 Using PGAdmin, a relational database, we joined the tables and queried the data. The tables are joined on column ‘id’. The ‘id’ column uniquely identifies each movie in the dataset. Our final joined table contains less null values than the original data because of the columns we selected.  
